@@ -38,6 +38,6 @@ Update the catalogue only after the ZIP has been uploaded and independently veri
 2. Verify the ZIP checksum and archive integrity against the generated manifest.
 3. Confirm the ZIP includes `manifest.json`, `pois.sqlite`, and `ATTRIBUTION.txt` naming OpenStreetMap contributors.
 4. Upload it to its final immutable path and verify the uploaded bytes have the same SHA-256.
-5. Use a catalogue entry first for the developer-only manifest probe, then make it rider-selectable only after the full public HTTPS Karoo download, validation, activation, and offline-lookup test succeeds.
+5. The Baden-Württemberg entry passed its developer-only manifest probe. Make it rider-selectable only after the full public HTTPS Karoo download, validation, activation, and offline-lookup test succeeds.
 
 The archive is a derived OpenStreetMap database. Keep its OpenStreetMap attribution and the ODbL 1.0 URI intact; see the repository [LICENSE](../LICENSE).
