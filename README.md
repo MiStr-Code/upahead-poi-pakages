@@ -31,4 +31,4 @@ The catalogue will be added after the first public download path has been tested
 | --- | --- | --- |
 | Baden-Württemberg, Germany | `260719` | `packages/de/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip` |
 
-The archive is checksum-verified by Up Ahead before it is installed. It is intentionally published without a catalogue entry until the public HTTPS download path has passed its on-device test.
+The archive is checksum-verified by Up Ahead before it is installed. `catalogue/v1.json` is published solely for the developer-only Karoo manifest probe; no rider build is configured to use it and no ZIP download or installation is enabled yet.
