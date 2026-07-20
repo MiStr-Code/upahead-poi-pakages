@@ -17,17 +17,18 @@ OpenStreetMap contributors must be credited as follows:
 
 Every distributed POI-package archive must also include an `ATTRIBUTION.txt` file with this attribution and the ODbL licence URI.
 
-## Planned layout
+## Repository layout
 
-- `catalogue-v1.json` — public package catalogue used by Up Ahead.
-- `regions/<region>/<version>/…zip` — immutable regional POI packages.
+- `catalogue/v1.json` — the stable public package catalogue used by Up Ahead.
+- `packages/<country>/<region>/<package-version>/…zip` — immutable regional POI packages.
+- `docs/PUBLISHING.md` — rules for publishing, replacing, and retiring packages.
 
-The catalogue and packages will be added after the first public download path has been tested from a Karoo device.
+The catalogue will be added after the first public download path has been tested from a Karoo device.
 
 ## Published packages
 
 | Region | Dataset version | Archive |
 | --- | --- | --- |
-| Baden-Württemberg, Germany | `260719` | `regions/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip` |
+| Baden-Württemberg, Germany | `260719` | `packages/de/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip` |
 
 The archive is checksum-verified by Up Ahead before it is installed. It is intentionally published without a catalogue entry until the public HTTPS download path has passed its on-device test.
