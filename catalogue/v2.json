@@ -1,0 +1,35 @@
+{
+    "formatVersion": 1,
+    "keyId": "upahead-ed25519-2026-07",
+    "catalogue": {
+        "formatVersion": 1,
+        "packages": [
+            {
+                "assetUrl": "https://raw.githubusercontent.com/MiStr-Code/upahead-poi-pakages/main/packages/de/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip",
+                "downloadManifest": {
+                    "assetName": "upahead-poi-baden-wuerttemberg-260719.zip",
+                    "byteLength": 10901940,
+                    "assetSha256": "22e0d4be42d48a303ae7dd14ab0bc5cdffb49f5172654d75a5e2e8219973da29",
+                    "packageManifest": {
+                        "formatVersion": 2,
+                        "regionId": "baden-wuerttemberg",
+                        "datasetVersion": "260719",
+                        "sourceSnapshotDate": "2026-07-19",
+                        "tagRegistryVersion": 1,
+                        "contentSha256": "435889968d2a1289b1d7292ee93b3a3b0fa291c81c135fd9ebbc78c021810390",
+                        "coverage": [
+                            {
+                                "minLatitude": 47.53076,
+                                "minLongitude": 7.506494,
+                                "maxLatitude": 49.79456,
+                                "maxLongitude": 10.51495
+                            }
+                        ],
+                        "attribution": "© OpenStreetMap contributors"
+                    }
+                }
+            }
+        ]
+    },
+    "signature": "7+4o2ed9F7OI5m8s17svme/VCoa/PC5DmfHAEE3kpX38JXhmwmNBKA/R7WXi7zoIVkuw73sbqKZVpbMsw6nzDw=="
+}
