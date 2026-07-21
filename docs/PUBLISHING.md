@@ -30,7 +30,7 @@ The archive path is immutable. Never overwrite, rename, or delete a published ar
 - the ZIP byte length and SHA-256;
 - the embedded package manifest expected by Up Ahead.
 
-Update the catalogue only after the ZIP has been uploaded and independently verified at its final URL. A catalogue may be published for a developer-only, manifest-only Karoo probe, but no rider build may be configured to use it until the public-download validation passes. The app verifies the external ZIP hash and length before it installs anything.
+Update the catalogue only after the ZIP has been uploaded and independently verified at its final URL. The Baden-Württemberg catalogue and complete public-download validation have passed their developer-only Karoo probes, but no rider build may use the entry until activation and offline lookup have passed. The app verifies the external ZIP hash and length before it installs anything.
 
 ## Publication checklist
 
@@ -38,6 +38,6 @@ Update the catalogue only after the ZIP has been uploaded and independently veri
 2. Verify the ZIP checksum and archive integrity against the generated manifest.
 3. Confirm the ZIP includes `manifest.json`, `pois.sqlite`, and `ATTRIBUTION.txt` naming OpenStreetMap contributors.
 4. Upload it to its final immutable path and verify the uploaded bytes have the same SHA-256.
-5. The Baden-Württemberg entry passed its developer-only manifest probe. Make it rider-selectable only after the full public HTTPS Karoo download, validation, activation, and offline-lookup test succeeds.
+5. The Baden-Württemberg entry passed its developer-only catalogue and full ZIP download/validation probes. Make it rider-selectable only after public activation and offline lookup succeed.
 
 The archive is a derived OpenStreetMap database. Keep its OpenStreetMap attribution and the ODbL 1.0 URI intact; see the repository [LICENSE](../LICENSE).

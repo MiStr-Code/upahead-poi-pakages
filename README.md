@@ -23,7 +23,7 @@ Every distributed POI-package archive must also include an `ATTRIBUTION.txt` fil
 - `packages/<country>/<region>/<package-version>/…zip` — immutable regional POI packages.
 - `docs/PUBLISHING.md` — rules for publishing, replacing, and retiring packages.
 
-The catalogue will be added after the first public download path has been tested from a Karoo device.
+The developer-only public catalogue and ZIP transport path have passed their Karoo hardware gates.
 
 ## Published packages
 
@@ -31,4 +31,4 @@ The catalogue will be added after the first public download path has been tested
 | --- | --- | --- |
 | Baden-Württemberg, Germany | `260719` | `packages/de/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip` |
 
-The archive is checksum-verified by Up Ahead before it is installed. `catalogue/v1.json` passed the developer-only Karoo manifest probe; no rider build is configured to use it and no ZIP download or installation is enabled yet.
+The archive is checksum-verified by Up Ahead before it is installed. `catalogue/v1.json` and the complete ZIP passed developer-only Karoo transport probes; no rider build is configured to use it and no package installation or activation is enabled yet.
