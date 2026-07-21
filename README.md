@@ -31,4 +31,4 @@ The developer-only public catalogue and ZIP transport path have passed their Kar
 | --- | --- | --- |
 | Baden-Württemberg, Germany | `260719` | `packages/de/baden-wuerttemberg/260719/upahead-poi-baden-wuerttemberg-260719.zip` |
 
-The archive is checksum-verified by Up Ahead before it is installed. `catalogue/v1.json`, the complete ZIP, explicit activation, and a local Water lookup passed developer-only Karoo probes. The rider flow is implemented in the app source but has not yet been installed as the normal rider app.
+The archive is checksum-verified by Up Ahead before it is installed. `catalogue/v1.json`, the complete ZIP, explicit activation, and a local Water lookup passed developer-only Karoo probes. Normal Up Ahead `0.1.35` then completed the rider-facing catalogue, download/validation, and separate activation journey on the Karoo as an in-place update; the persistent installed list shows Baden-Württemberg `260719`. The final route-dependent offline-enrichment UI check awaits an active route and will not alter a rider's navigation merely to force that test.
