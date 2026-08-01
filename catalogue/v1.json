@@ -25,6 +25,31 @@
           "attribution": "© OpenStreetMap contributors"
         }
       }
+    },
+    {
+      "assetUrl": "https://raw.githubusercontent.com/MiStr-Code/upahead-poi-pakages/main/packages/fr/alsace/260731/upahead-poi-alsace-260731.zip",
+      "downloadManifest": {
+        "assetName": "upahead-poi-alsace-260731.zip",
+        "byteLength": 1600643,
+        "assetSha256": "b2e75007c82efc1b9d777e3f237ca6053bf5c6f1b5af5e15e4328f667d009fdc",
+        "packageManifest": {
+          "formatVersion": 2,
+          "regionId": "alsace",
+          "datasetVersion": "260731",
+          "sourceSnapshotDate": "2026-07-31",
+          "tagRegistryVersion": 1,
+          "contentSha256": "7861d0cc656456cca8dda53f3941417f14fb897122d5509e2c07b72e2e993e08",
+          "coverage": [
+            {
+              "minLatitude": 47.41798,
+              "minLongitude": 6.838921,
+              "maxLatitude": 49.07898,
+              "maxLongitude": 8.235465
+            }
+          ],
+          "attribution": "© OpenStreetMap contributors"
+        }
+      }
     }
   ]
 }
