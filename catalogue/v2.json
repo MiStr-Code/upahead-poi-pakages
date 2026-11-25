@@ -53,8 +53,33 @@
                         "attribution": "© OpenStreetMap contributors"
                     }
                 }
+            },
+            {
+                "assetUrl": "https://raw.githubusercontent.com/MiStr-Code/upahead-poi-pakages/main/packages/es/islas-baleares/261124/upahead-poi-islas-baleares-261124.zip",
+                "downloadManifest": {
+                    "assetName": "upahead-poi-islas-baleares-261124.zip",
+                    "byteLength": 1619764,
+                    "assetSha256": "05039c48224463cb1b9d49408aa309078394bc7d82c4bf1ee40799a79d85d8d2",
+                    "packageManifest": {
+                        "formatVersion": 2,
+                        "regionId": "islas-baleares",
+                        "datasetVersion": "261124",
+                        "sourceSnapshotDate": "2026-11-24",
+                        "tagRegistryVersion": 1,
+                        "contentSha256": "962eb70c376c09a09a299c110324ce06d2eea26ef8f9203bfcc369364afae7ad",
+                        "coverage": [
+                            {
+                                "minLatitude": 38.05675,
+                                "minLongitude": 0.615229,
+                                "maxLatitude": 40.7098,
+                                "maxLongitude": 4.938349
+                            }
+                        ],
+                        "attribution": "© OpenStreetMap contributors"
+                    }
+                }
             }
         ]
     },
-    "signature": "+DFVxU11W59c31UPbBO5RHTh3hOblRKGejKXBJHTNkn3tHRsZGzTua3UcQGkfb7V/hmbDz9G+1u+rby77hQ0AA=="
+    "signature": "wej1XSEIUGGPjT8Tea4voK7DM1jmKgSb26n0bF/JigbSsFJFAngBMxQKTI9khLgkEY32os7dqpygBKPx5PFwBA=="
 }
